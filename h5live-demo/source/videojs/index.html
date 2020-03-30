@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>video.js</title>
+  <link rel="stylesheet" href="./video-js.min.css">
+  <script src="./video.min.js" charset="utf-8"></script>
+  <script src="./videojs-contrib-hls.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <video id="my-player" class="video-js" controls>
+    <source src="../../test-2.mp4" type="video/mp4"></source>
+    <p class="vjs-no-js">
+      not support
+    </p>
+  </video>
+  <script type="text/javascript">
+    var player = videojs('my-player',{});
+  </script>
+</body>
+</html>
